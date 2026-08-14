@@ -7,6 +7,7 @@ require("layout")
 require("input")
 require("hotkeys")
 require("programs")
+require("rules")
 
 -----------------------
 ----- PERMISSIONS -----
@@ -35,30 +36,9 @@ require("programs")
 
 hl.config({
     misc = {
-        force_default_wallpaper = -1,    -- Set to 0 or 1 to disable the anime mascot wallpapers
+        force_default_wallpaper = 2,    -- Set to 0 or 1 to disable the anime mascot wallpapers
         disable_hyprland_logo   = false, -- If true disables the random hyprland logo / anime girl background. :(
     },
 })
 
 
---------------------------------
----- WINDOWS AND WORKSPACES ----
---------------------------------
-
--- See https://wiki.hypr.land/Configuring/Basics/Window-Rules/
--- and https://wiki.hypr.land/Configuring/Basics/Workspace-Rules/
-
-hl.window_rule({
-    -- Fix some dragging issues with XWayland
-    name  = "fix-xwayland-drags",
-    match = {
-        class      = "^$",
-        title      = "^$",
-        xwayland   = true,
-        float      = true,
-        fullscreen = false,
-        pin        = false,
-    },
-
-    no_focus = true,
-})
