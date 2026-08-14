@@ -1,5 +1,4 @@
 require("env")
-require("autostart")
 require("monitors")
 require("decoration")
 require("animation")
@@ -8,6 +7,7 @@ require("input")
 require("hotkeys")
 require("programs")
 require("rules")
+require("autostart")
 
 -----------------------
 ----- PERMISSIONS -----
