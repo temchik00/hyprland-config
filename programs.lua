@@ -6,4 +6,4 @@
 Terminal    = "kitty"
 FileManager = "dolphin"
 Menu        = "hyprlauncher"
-Browser     = "chromium"
+Browser     = "google-chrome-stable"
