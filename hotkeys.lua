@@ -19,6 +19,8 @@ hl.bind(mainMod .. " + X", hl.dsp.window.close())
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd("command -v hyprshutdown >/dev/null 2>&1 && hyprshutdown || hyprctl dispatch 'hl.dsp.exit()'"))
 hl.bind(mainMod .. " + V", hl.dsp.window.fullscreen({ action = "toggle" }))
 hl.bind(mainMod .. " + P", hl.dsp.window.pseudo())
+hl.bind("Print", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
+hl.bind("SHIFT + SUPER + R", hl.dsp.exec_cmd('grim -g "$(slurp -d)" - | wl-copy'))
 
 -- Move focus with mainMod + arrow keys
 hl.bind(mainMod .. " + left",  hl.dsp.focus({ direction = "left" }))
