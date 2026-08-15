@@ -1,0 +1,6 @@
+require("modules.keybinds.basics")
+require("modules.keybinds.applications")
+require("modules.keybinds.misc")
+require("modules.keybinds.focus")
+require("modules.keybinds.workspace")
+require("modules.keybinds.submap_binds")

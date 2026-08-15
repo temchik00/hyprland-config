@@ -1,13 +1,13 @@
-require("env")
-require("monitors")
-require("decoration")
-require("animation")
-require("layout")
-require("input")
-require("hotkeys")
-require("programs")
-require("rules")
-require("autostart")
+require("modules.env")
+require("modules.monitors")
+require("modules.decoration")
+require("modules.animation")
+require("modules.layout")
+require("modules.input")
+require("modules.keybinds")
+require("modules.programs")
+require("modules.rules")
+require("modules.autostart")
 
 -----------------------
 ----- PERMISSIONS -----
