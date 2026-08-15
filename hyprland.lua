@@ -9,6 +9,7 @@ require("modules.programs")
 require("modules.rules")
 require("modules.autostart")
 
+
 -----------------------
 ----- PERMISSIONS -----
 -----------------------
@@ -28,8 +29,6 @@ require("modules.autostart")
 -- hl.permission("/usr/(bin|local/bin)/hyprpm", "plugin", "allow")
 
 
-
-
 ----------------
 ----  MISC  ----
 ----------------
@@ -40,6 +39,7 @@ hl.config({
         disable_hyprland_logo   = false, -- If true disables the random hyprland logo / anime girl background. :(
     },
 })
+
 
 -----------------
 ----  BINDS  ----
