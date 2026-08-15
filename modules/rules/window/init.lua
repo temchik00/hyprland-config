@@ -1,0 +1,5 @@
+require("modules.rules.window.browser")
+require("modules.rules.window.games")
+require("modules.rules.window.steam")
+require("modules.rules.window.telegram")
+require("modules.rules.window.xwayland")
