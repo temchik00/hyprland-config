@@ -4,6 +4,8 @@
 
 -- See https://wiki.hypr.land/Configuring/Advanced-and-Cool/Environment-variables/
 
+hl.env("SHELL", "/usr/bin/zsh")
+
 hl.env("XCURSOR_SIZE", "24")
 hl.env("HYPRCURSOR_SIZE", "24")
 
@@ -22,6 +24,7 @@ hl.env("XDG_SESSION_DESKTOP", "Hyprland")
 hl.env("GBM_BACKEND", "nvidia-drm")
 hl.env("__GLX_VENDOR_LIBRARY_NAME", "nvidia")
 hl.env("LIBVA_DRIVER_NAME", "nvidia")
+hl.env("NVD_BACKEND", "direct")
 
 -- QT theme
 hl.env("QT_QPA_PLATFORMTHEME", "qt6ct")

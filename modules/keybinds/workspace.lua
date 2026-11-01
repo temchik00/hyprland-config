@@ -9,4 +9,6 @@ end
 
 -- Gaming workspace
 hl.bind(mods.mainMod .. " + G", hl.dsp.focus({ workspace = "name:game" }))
-hl.bind(mods.winMoveMod .. " + G", hl.dsp.focus({ workspace = "name:game" }))
+hl.bind(mods.winMoveMod .. " + G", hl.dsp.window.move({ workspace = "name:game" }))
+hl.bind(mods.mainMod .. " + S", hl.dsp.focus({ workspace = "special:hide" }))
+hl.bind(mods.winMoveMod .. " + S", hl.dsp.window.move({ workspace = "special:hide", follow = false }))

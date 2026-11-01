@@ -7,7 +7,9 @@ require("modules.input")
 require("modules.keybinds")
 require("modules.programs")
 require("modules.rules")
+require("modules.events")
 require("modules.autostart")
+
 
 
 -----------------------
